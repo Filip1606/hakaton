@@ -18,7 +18,7 @@ html {
     align-items: center;
 }
 
-.navbar_kontejner {
+.navbar_container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,4 +36,27 @@ html {
 
 .navbar_link:hover {
     color: #9518fc;
+}
+
+.hero {
+    background: linear-gradient(to top, #d7cfcf, rgb(156, 119, 119));
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hero img {
+    height: 320px;
+    padding: 20px 70px;
+}
+
+.hero h1 {
+    padding: 20px 20px;
+    font-size: 50px;
+}
+
+.hero p {
+    padding: 20px 20px;
+    font-size: 30px;
 }
