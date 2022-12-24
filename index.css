@@ -10,7 +10,7 @@ html {
 }
 
 .navbar {
-    background: linear-gradient(to right, #eb0404, black);
+    background: linear-gradient(to right, #B1B2FF, #87A2FB, #3B9AE1);
     height: 80px;
     font-size: 22px;
     display: flex;
@@ -35,11 +35,11 @@ html {
 }
 
 .navbar_link:hover {
-    color: #9518fc;
+    color: #EEEEEE;
 }
 
 .hero {
-    background: linear-gradient(to top, #d7cfcf, rgb(156, 119, 119));
+    background: linear-gradient(to top, #D2DAFF, #AAC4FF);
     padding: 80px 0;
     display: flex;
     justify-content: space-between;
@@ -59,4 +59,13 @@ html {
 .hero p {
     padding: 20px 20px;
     font-size: 30px;
+}
+
+.footer {
+    background: linear-gradient(to right, #B1B2FF, #87A2FB, #3B9AE1);
+    height: 80px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
